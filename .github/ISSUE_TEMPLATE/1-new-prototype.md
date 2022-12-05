@@ -1,14 +1,14 @@
-name: '🏠 New prototype'
-labels: 'prototype'
-description: I want to new prototype
+name: '🏠 Hosting request'
+labels: 'hosting-request'
+description: I want to host a plugin or library in the Jenkins organization
 
 body:
   - type: input
     attributes:
-      label: New prototype name
+      label: Prototype name
       description: |
-        Should start with team name, e.g. `idam-`
+        URL of the repository to host in the jenkinsci organization
       placeholder: |
-        idam-prototype
+        https://github.com/your-org/your-repo-name
     validations:
       required: true
